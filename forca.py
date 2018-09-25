@@ -128,7 +128,7 @@ def jogar():
             erros += 1
             desenha_forca(erros)
 
-        enforcou = (erros == 6)
+        enforcou = (erros == 7)
         acertou = ('_' not in letras_acertadas)
         print (letras_acertadas)
 
